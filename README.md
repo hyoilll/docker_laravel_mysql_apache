@@ -5,5 +5,12 @@
 - Db: mysql:8.0.30
 - Npm: 8.12.1
 
+### install
+- make build
+- make env
+- make key
+- make migration
+- make up
+
 ### 参考
 - https://kita127.hatenablog.com/entry/2022/10/02/145614
