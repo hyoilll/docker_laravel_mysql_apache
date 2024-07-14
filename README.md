@@ -7,10 +7,11 @@
 
 ### install
 - make build
+- make up
+- make composer
 - make env
 - make key
 - make migration
-- make up
 
 ### 参考
 - https://kita127.hatenablog.com/entry/2022/10/02/145614

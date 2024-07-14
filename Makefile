@@ -9,6 +9,9 @@ build_select: #特定のサービスをビルド
 build_nocache: #キャッシュ無視してビルド
 	docker compose build --no-cache
 
+composer: # composer update
+	docker compose exec apache bash -c "composer update"
+
 env: #.env.exampleから.envをコピー & key生成まですること。
 	cp ./webapp/.env.example ./webapp/.env
 key: # make key
