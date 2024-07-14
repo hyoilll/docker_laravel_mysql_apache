@@ -10,7 +10,7 @@ build_nocache: #キャッシュ無視してビルド
 	docker compose build --no-cache
 
 env: #.env.exampleから.envをコピー & key生成まですること。
-	cp .env.example .env
+	cp ./webapp/.env.example ./webapp/.env
 key: # make key
 	docker compose exec apache bash -c "php artisan key:generate"
 
