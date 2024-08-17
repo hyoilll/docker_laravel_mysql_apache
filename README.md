@@ -15,3 +15,6 @@
 
 ### 参考
 - https://kita127.hatenablog.com/entry/2022/10/02/145614
+
+### リモートとの紐付け解除
+- git remote remove origin
